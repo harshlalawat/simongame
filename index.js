@@ -59,7 +59,7 @@ function nextSequence(){
 
 
 function playSound(name){
-  var makeSound = new Audio("sounds/" + name + ".mp3");
+  var makeSound = new Audio(name + ".mp3");
   makeSound.play();
 }
 
